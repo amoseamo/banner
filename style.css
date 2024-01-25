@@ -1,0 +1,56 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+span{
+	color:#e3a302;
+	font-size:30px;
+}
+i{
+	color:#e3a302;
+}
+h1{
+	font-size:50px;
+	font-family: 'Ubuntu', sans-serif;
+	color:#FFF;
+}
+p{
+	font-size:20px;
+	font-family:Krona One;
+	color:#FFF;
+}
+a{
+	color:#FFF;
+}
+.content{
+	text-align:center;
+	height:100vh;
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(images/hero-bg.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+}
+.box{
+	text-align:center;
+	padding-top:60px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	margin:auto;
+	width:800px;
+	margin-top:25px;
+}
+.content-2{
+	padding:25px;
+	border:1px solid #fff;
+	margin-right:20px;
+}
+.content-2:hover{
+	border-color:#e3a302;
+}
+.banner-icon{
+	padding-bottom:20px;
+}
+.head{
+	padding-top:100px;
+}
